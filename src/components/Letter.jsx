@@ -67,10 +67,6 @@ export default function Letter() {
             backgroundBlendMode: "overlay",
           }}
         >
-          <h1 className="text-3xl text-pink-700 mb-4 text-center">
-            A Letter For You
-          </h1>
-
           <div
   ref={scrollRef}
   className="flex-1 overflow-y-auto pr-3 text-xl leading-relaxed hide-scrollbar tracking-wide"
